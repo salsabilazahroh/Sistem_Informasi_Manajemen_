@@ -1,0 +1,144 @@
+/* style.css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+header {
+  background-color: #198cff;
+  color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+header .header-content h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+header .header-content h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+header .header-content p {
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 20px;
+}
+
+.menu-section {
+  margin-bottom: 40px;
+}
+
+.menu-section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.food-item {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.food-item img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.details {
+  padding: 20px;
+}
+
+.details h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.details p {
+  color: #6f6f6f;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #198cff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #673a3e;
+}
+
+.info-section {
+  margin-bottom: 40px;
+}
+
+.info-section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+
+.store-details {
+  max-width: 500px;
+  text-align: left;
+}
+
+.store-details h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.store-details p {
+  color: #6f6f6f;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #198cff;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
